@@ -1,0 +1,33 @@
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav li{
+    list-style-type: none;
+    width:33.3%;
+    text-align: center;
+}
+nav a{ 
+    display: block;
+    color: white;
+    padding: 20px 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+nav li a:hover{
+    padding:15px 30px 20px 30px;
+}
+.menuInfo:hover{
+    background-color:  #5077a6;
+    border-top: 5px solid rgb(253, 238, 20);
+}
+.menuExper:hover{
+    background-color:  #5077a6;
+    border-top: 5px solid rgb(253, 238, 20);
+}
+.menucontact:hover{
+    background-color:  #5077a6;
+    border-top: 5px solid rgb(253, 238, 20);
+}

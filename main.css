@@ -1,0 +1,156 @@
+body{
+    font-family: 'Berlin Sans FB','trebuchet MS', Arial;
+    border: 1px solid #424580;
+    background-color: rgb(180, 176, 129)
+}
+.Size40{
+    font-size: 40px  ;
+}
+.Size20{
+    font-size: 20px;
+}
+.colorBlueDark{
+    color: #283645;
+}
+.colorBlueLight{
+    color: #1490d7;
+}
+.colorOrange{
+    color: #ff8000;
+}
+.colorwhite{
+    color: white;
+}
+.text-center{
+    text-align: center;
+}
+.bg-colorBlue3{
+    background-color: #424580;
+}
+.bg-colorbl{
+    background-color: #1490d7;
+}
+h2{
+    padding: 0px ;
+    margin: 30px 0px ;
+}
+.borderBottomDark{
+    border-bottom: 1px solid #283645;
+}
+.gauche{
+    float: left;
+}
+.clear{
+    clear:both
+}
+/*header*/
+.header{
+    display:flex;
+    align-items: center;
+    text-align: center;
+}
+.header .photoperso, .header .infoperso{
+    width: 33.3%;
+}
+.header .photoperso img{
+    height: 200px;
+}
+.header .posteRecherche{
+    flex: auto;
+}
+/*fin header*/
+
+/*Footer*/
+.footer{
+    padding: 10px;
+    margin-top: 50px;
+}
+/*Fin footer*/
+
+/*corps*/
+.corps{
+    padding: 0% 2%;
+}
+.Compétence table{
+    width: 100%;
+}
+.Compétence table td, .Compétence table th{
+    padding: 10px 20px ;
+    border: 1px solid #283645;
+    width: 33%;
+}
+.col1{
+    width: 20%;
+}
+.col2{
+    width: 80%;
+}
+label{
+    display: block;
+    width: 20%;
+    float: left;
+    text-align: right;
+    padding-right: 20px;
+}
+.BottomContact{
+    margin-left: 25%;
+    width: 200px;
+
+}
+/* Fin corps*/
+
+
+@media (max-width: 768px){
+    .Size40{
+        font-size: 22px;
+    }
+    .Size20{
+        font-size: 14px;
+    }
+    .header .photoperso img{
+        height: 100px;
+    }
+    .col1{
+        width: 30%;
+        display: none;
+    }
+    .col2{
+        width: 70%;
+    }
+}
+@media (min-width: 769px) and (max-width: 1300px){
+    .col1{
+        width: 35%;
+    }
+    .col2{
+        width: 65%;
+    }
+}
+
+/*
+.float-end{
+    background-color: #424580;
+    color: white;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    
+}
+.mb-1{
+    text-align: center;
+    margin: 10px 0px; 
+}
+.float-end:hover{
+    background-color:  #5077a6;
+    border-top: 5px solid rgb(253, 238, 20);
+}
+
+a{ 
+    
+    color: white;
+    padding: 20px 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/*/
